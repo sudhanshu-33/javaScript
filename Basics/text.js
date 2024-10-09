@@ -1,13 +1,36 @@
+"use strict"; // treat all JS code as newer version
+
+// alert( 3 + 3) // we are using nodejs, not browser
+
+
 console.log("sudha");
+
+
+
 const accountId = 12434
 let accountName = "sudhanshu"
-let state;
-console.log(accountId,accountName);
+
+let age=21
+let state; //undefined
+
+let isLoggedIn = false; //boolean
+console.log(accountId,accountName,isLoggedIn);
 console.table([accountId,accountName])
-console.log(typeof "sudhanshu")
-console.log(typeof accountId)
-console.log(typeof null)
-console.log(typeof undefined)
-console.log(typeof state)
-console.log(typeof Symbol)
-console.log(typeof Object)
+
+
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
+console.log(typeof "sudhanshu") //string
+console.log(typeof accountId) //number
+console.log(typeof null) //Object
+console.log(typeof undefined) // Undefined
+console.log(typeof state) //undefined
+console.log(typeof Symbol) //function
+console.log(typeof Object) //function
+console.log(typeof isLoggedIn) //boolean
