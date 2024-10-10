@@ -17,7 +17,7 @@ let isLoggedIn = false; //boolean
 console.log(accountId,accountName,isLoggedIn);
 console.table([accountId,accountName])
 
-
+//primitive DataType
 // number => 2 to power 53
 // bigint
 // string => ""
@@ -34,3 +34,17 @@ console.log(typeof state) //undefined
 console.log(typeof Symbol) //function
 console.log(typeof Object) //function
 console.log(typeof isLoggedIn) //boolean
+
+// Reference (non primitive) datatype
+//array,object,functions
+let fruits = ["apple","banana","watermelon"]
+let myObj={
+    name : "sudhanshu",
+    salary : 7000
+}
+const func = function(){
+    console.log("hello")
+}
+console.log(typeof func) // ===> function
+console.log(typeof myObj) // ==> object
+console.log(typeof fruits) //==> object
