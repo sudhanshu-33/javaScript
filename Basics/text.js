@@ -48,3 +48,9 @@ const func = function(){
 console.log(typeof func) // ===> function
 console.log(typeof myObj) // ==> object
 console.log(typeof fruits) //==> object
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+//memory
+//stack(primitive) , heap(non-primitive)
